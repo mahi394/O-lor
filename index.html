@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="O'lor Perfume - A fragrance that lasts forever.">
+    <title>O'lor Perfume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>O'lor </h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Discover the Essence of Elegance</h2>
+            <p>Your perfect fragrance is just a spray away.</p>
+            <br>
+            <button class="hero-button" onclick="scrollToSection('products')">Browse Collection</button>
+        </div>
+    </section>
+    
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About O'lor</h2>
+            <p>O'lor Perfume is a luxurious fragrance brand that captures the essence of elegance and sophistication. We offer a wide range of scents designed to complement your unique style and personality.</p>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Collection</h2>
+            <div class="product-gallery">
+                <div class="product">
+                    <img src="Capture.webp" alt="Perfume 1">
+                    <h3>Elegant Blossom</h3>
+                    <p>Price: $49.99</p>
+                </div>
+                <div class="product">
+                    <img src="Santoras-Midnight-Essence1-Photoroom.webp" alt="Perfume 2"  >
+                    
+                    <h3>Midnight Essence</h3>
+                    <p>Price: $59.99</p>
+                </div>
+                <div class="product">
+                    <img src="AURA_1.webp" alt="Perfume 3">
+                    <h3>Golden Aura</h3>
+                    <p>Price: $69.99</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have any questions? We'd love to hear from you!</p>
+            <br>
+            <form action="#">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 O'lor Perfume. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
